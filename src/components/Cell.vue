@@ -7,7 +7,9 @@ export default {
   props: ['value'],
   computed: {
     something () {
-      return chance.letter()
+      return chance.character({
+        pool: `${'aeiost'.repeat(3)}bcdfghjklmnpruuwyz`
+      })
     }
   }
 }
