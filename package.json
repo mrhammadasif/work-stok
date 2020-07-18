@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "serve dist/",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "chance": "^1.1.6",
     "core-js": "^3.6.5",
+    "serve": "^11.3.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
